@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.nio.channels.NonWritableChannelException"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Duck"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Flyable"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Person"/>
+    <fullyQualifiedTypeName name="demo02.Initializer"/>
+    <fullyQualifiedTypeName name="demo02.Constructor"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
+    <fullyQualifiedTypeName name="demo02.Constructor1"/>
+    <fullyQualifiedTypeName name="demo02.Learning"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Inheritance"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Inheritance1"/>
+    <fullyQualifiedTypeName name="com.dhanashri.Student"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.features.Person"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

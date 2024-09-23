@@ -1,0 +1,8 @@
+package com.Rajvardhan;
+
+public class Snippet {
+	public static void main(String[] args) {
+		p.getName()
+	}
+}
+

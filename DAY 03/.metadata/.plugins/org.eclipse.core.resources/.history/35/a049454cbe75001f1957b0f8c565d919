@@ -1,0 +1,14 @@
+package com.Rajvardhan;
+
+public class Program {
+
+	public static void main(String[] args) {
+        EmployeeTest EmployeeTest1 = new EmployeeTest("Rajvardhan", "Patil", 3000.0);
+        System.out.println("Employee1 ::");
+        System.out.println(EmployeeTest1.toString());
+        EmployeeTest EmployeeTest2 = new EmployeeTest("Samarth", "Zadbuke", 3500.0);
+        System.out.println("Employee2 ::");
+        System.out.println(EmployeeTest2.toString());
+	}
+
+}

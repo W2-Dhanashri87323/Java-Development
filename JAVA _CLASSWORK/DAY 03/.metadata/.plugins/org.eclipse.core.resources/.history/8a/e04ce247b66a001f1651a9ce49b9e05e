@@ -1,0 +1,15 @@
+package volumn;
+
+public class Cone {
+ 
+	public double calCone(double radius , double height ) {
+		//1/3Pi(r)^2h
+		double result = (1/3) * 3.14 *( radius * radius)*height;
+		System.out.println("The volumn of cone : " + result);
+	
+	
+	
+	return 0;
+	}
+	
+}

@@ -1,0 +1,11 @@
+import area.Circle;
+
+public class ProgramCode{
+	public static void main(String[] args) {
+
+		Circle c1 =new Circle();
+		c1.areaOfCircle(20);
+		
+		
+	}
+}

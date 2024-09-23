@@ -1,0 +1,16 @@
+import area.Circle;
+import java.util.*;
+
+public class ProgramCode{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		
+        System.out.print("Enter the radius :" );
+        double input = sc.nextDouble();
+		
+        Circle c1 = new Circle();
+        c1.areaOfCircle(input);
+        
+		
+	}
+}

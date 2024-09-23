@@ -1,0 +1,46 @@
+package com.dhanashri;
+
+public class Inheritance{
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Person {
+	private String name;
+	private int age;
+	
+	public Person(String name,int age ) {
+		this.name=name;
+		this.age=age;
+	}
+	
+	public void DisplayRecord(String name, int age) {
+		System.out.println("Name :  " + this.name );
+		System.out.println("Age :  " + this.age);
+	}
+	
+	
+
+}
+
+class Student extends Person{
+	private int id;
+	private int number;
+	
+	public Student(String name,int age ,int id,int number) {
+		super(name,age);
+		this.id=id;
+		this.number=number;
+	}
+	
+	public void DisplayRecord() {
+		super.DisplayRecord(null , 0);
+		System.out.println("ID : " + this.id);
+		System.out.println("Number  : " +  this.number);
+	}
+	
+	
+	
+}

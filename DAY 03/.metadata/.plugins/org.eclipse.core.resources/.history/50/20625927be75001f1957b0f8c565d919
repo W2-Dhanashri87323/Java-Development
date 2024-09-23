@@ -1,0 +1,11 @@
+package com.Rajvardhan;
+
+public class Program {
+
+	public static void main(String[] args) {
+        EmployeeTest EmployeeTest1 = new EmployeeTest("Rajvardhan", "Patil", 3000.0);
+        EmployeeTest EmployeeTest2 = new EmployeeTest("Samarth", "Zadbuke", 3500.0);
+
+	}
+
+}

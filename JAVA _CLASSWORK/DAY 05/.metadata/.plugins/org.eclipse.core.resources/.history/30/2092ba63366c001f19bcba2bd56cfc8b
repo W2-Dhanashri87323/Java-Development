@@ -1,0 +1,26 @@
+package com.dhanashri;
+
+public class Program {
+
+	public static void main(String[] args) {
+	   
+	 // Duck d = new Duck();	
+     // Flyable f = d; // upcasting
+      
+      Flyable f = new Duck(); // polymorphic declaration
+      
+      f.fly(); 
+      f.eat(); 
+      
+      
+    // d.fly() // not ok or not good practice 
+    // d.eat // not ok
+    
+    //  d.name(); // not ok 
+  
+     // for calling name there should be downcast or create instantOf duck into flyable 
+		
+	}
+
+}
+ 

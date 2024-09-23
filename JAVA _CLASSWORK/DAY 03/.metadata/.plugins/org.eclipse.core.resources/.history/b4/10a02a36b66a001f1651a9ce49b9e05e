@@ -1,0 +1,10 @@
+package volumn;
+
+public class Cone {
+ 
+	public double calCone() {
+	System.out.println("hello world");
+	return 0;
+	}
+	
+}

@@ -1,0 +1,27 @@
+package com.dhanashri;
+
+public class Person {
+	
+private String name;
+private int age ;
+
+// field initializer --->
+//private String name = "Dhanu ";
+//private int age = 10;
+
+
+
+// constructor initializer --->
+public Person() { 
+name = "Dhanashri ";
+age = 22;
+	
+}
+
+
+
+
+	
+
+
+}

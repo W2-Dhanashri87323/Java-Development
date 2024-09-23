@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+E:\D-Mobile Computing\JAVA\DAY 03\.metadata\.plugins\org.eclipse.jdt.core
+3478800742.index
+3093133808.index
+1865797976.index
+559163466.index
+1067094681.index

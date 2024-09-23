@@ -1,0 +1,28 @@
+package com.dhanashri;
+
+public class GenericsOld {
+
+    private Object obj;
+
+    public Object getObj() {
+        return obj;
+    }
+
+    public void setObj(Object obj) {
+        this.obj = obj;
+    }
+
+    public static void main(String[] args) {
+    	
+        GenericsOld g = new GenericsOld();
+//      g.setObj(new Integer(34));    //Boxing
+        g.setObj(34); //Auto-boxing
+        Integer r1 = (Integer)g.getObj();
+        System.out.println("Integer :" +r1);
+        
+        String s1=(String)g.getObj();
+        System.out.println("String :" +s1);
+        
+    }
+
+}

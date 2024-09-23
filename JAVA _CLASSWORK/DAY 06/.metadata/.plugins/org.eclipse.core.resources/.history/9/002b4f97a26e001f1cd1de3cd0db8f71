@@ -1,0 +1,21 @@
+package com.dhanashri;
+import java.util.Calendar;
+
+//using Calendar class -->
+
+
+public class DemoDate {
+	public static void main(String[] args) {
+		Calendar c = Calendar.getInstance();
+		int day1 = c.get(Calendar.DAY_OF_MONTH);
+		
+		int day = c.get(Calendar.DATE);
+		int month = c.get(Calendar.MONTH);
+		int year = c.get(Calendar.YEAR);
+		
+		System.out.println(day + "/" + month +"/"+ year);
+		
+		
+	}
+
+}

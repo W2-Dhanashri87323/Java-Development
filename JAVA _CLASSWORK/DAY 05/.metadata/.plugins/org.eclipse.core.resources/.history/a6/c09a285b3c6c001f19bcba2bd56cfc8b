@@ -1,0 +1,20 @@
+package demo02;
+
+class Initializer{
+	//field initializer
+	private int id;
+	private int age;
+	
+	//Constructor initializer
+	public Initializer() {
+		
+	}
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+
+	}
+
+}

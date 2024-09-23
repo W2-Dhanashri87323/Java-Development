@@ -1,0 +1,16 @@
+package demo02;
+
+class Initializer{
+	//field initializer
+	private int id;
+	private int age;
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

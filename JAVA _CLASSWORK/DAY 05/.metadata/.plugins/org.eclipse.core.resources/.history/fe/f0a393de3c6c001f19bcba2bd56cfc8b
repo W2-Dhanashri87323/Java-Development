@@ -1,0 +1,22 @@
+package demo02;
+
+class Initializer{
+	//field initializer
+	private int id=1;
+	private int age=23;
+	
+	//Constructor initializer
+	public Initializer() {
+		System.out.println("Construtor Called");
+	}
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+		Initializer i =new Initializer();
+		System.out.println("Id ::"+i.id);
+		System.out.println("Age ::"+i.age);
+		}
+
+}

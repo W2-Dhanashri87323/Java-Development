@@ -1,0 +1,28 @@
+package com.dhanashri;
+
+public class DemoInhr{
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Inheritance {
+	private String name;
+	private int age;
+	
+	public Inheritance(String name,int age ) {
+		this.name=name;
+		this.age=age;
+	}
+	
+	
+
+}
+
+class Inheritance1{
+	private int id;
+	private int number;
+	
+	public
+	
+}

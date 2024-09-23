@@ -1,0 +1,20 @@
+package com.dhanashri;
+
+public class Program {
+
+	public static void main(String[] args) {
+	   
+	  Duck d = new Duck();	
+      //Flyable f = d; // upcasting
+      
+     // Flyable f = new Duck(); // polymorphic declaration
+      
+      d.fly();
+      d.eat();
+     
+      d.name();
+		
+	}
+
+}
+ 

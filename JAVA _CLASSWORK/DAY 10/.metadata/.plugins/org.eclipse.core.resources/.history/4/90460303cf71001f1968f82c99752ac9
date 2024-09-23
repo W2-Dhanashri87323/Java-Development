@@ -1,0 +1,15 @@
+package com.Dhanashri;
+
+class Multiplicant {
+	private int num1;
+	private int num2;
+
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+
+	}
+
+}

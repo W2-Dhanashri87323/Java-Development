@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.sunbeam.Program02.java&apos; to &apos;Program002.java&apos;&#x0D;&#x0A;- Original project: &apos;Day7&apos;&#x0D;&#x0A;- Original element: &apos;com.sunbeam.Program02.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sunbeam.Program002.java&apos;" description="Rename compilation unit &apos;Program02.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/codes\/demo03\/src&lt;com.sunbeam{Program02.java" name="Program002.java" references="false" stamp="1725963108957" version="1.0"/>
+</session>

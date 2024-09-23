@@ -1,0 +1,14 @@
+package com.dhanashri;
+
+public class Program {
+
+	public static void main(String[] args) {
+	   
+	  Duck d = new Duck();	
+      Flyable f = d;
+      f.fly();
+      f.eat();
+		
+	}
+
+}

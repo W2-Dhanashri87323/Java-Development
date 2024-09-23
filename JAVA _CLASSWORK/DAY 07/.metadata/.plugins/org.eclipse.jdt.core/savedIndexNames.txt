@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+E:\SUNBEAM\JAVA\DAY 07\.metadata\.plugins\org.eclipse.jdt.core
+559163466.index
+3093133808.index
+551738394.index
+2761588797.index
+1865797976.index

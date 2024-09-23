@@ -1,0 +1,24 @@
+package com.dhanashri;
+
+public class GenericsNew<T> {
+	private T obj;
+
+	public T getObj() {
+		return obj;
+	}
+
+	public void setObj(T obj) {
+		this.obj = obj;
+	}
+
+	public static void main(String[] args) {
+		GenericsNew<Integer> g = new GenericsNew<>();
+		g.setObj(10);
+		System.out.println(g.getObj());
+		
+		GenericsNew<Object> g1 = new GenericsNew<>();
+		g1.setObj(Cat);
+		System.out.println(g1.getObj());
+	}
+
+}

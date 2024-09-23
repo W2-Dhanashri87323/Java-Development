@@ -1,0 +1,20 @@
+/*************************************
+ * Author :: Rajvardhan Patil
+ * Question ::Accept a integer number and when the program is executed print the
+ * binary, octal and hexadecimal equivalent of the given number.
+ *************************************/
+package com.Rajvardhan;
+
+public class Program {
+
+	public static void main(String[] args) {
+		InvoiceTest product1 = new InvoiceTest();
+		System.out.println(product1.toString());
+		System.out.println();
+		InvoiceTest product2 = new InvoiceTest("Xre124","Screw Driver",5,50);
+		System.out.println(product2.toString());
+		System.out.println("Invoice Amount ::"+product2.invoiceAmt());
+
+	}
+
+}

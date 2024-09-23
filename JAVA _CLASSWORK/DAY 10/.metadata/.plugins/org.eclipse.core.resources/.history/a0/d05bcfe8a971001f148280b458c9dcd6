@@ -1,0 +1,12 @@
+package com.dhanashri;
+import java.util.*;
+
+public class ListPractice {
+List<String> list = new LinkedList<>();
+list.add("India");
+list.add("US");
+list.add("AUS");
+list.add("China");
+
+
+}

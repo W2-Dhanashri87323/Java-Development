@@ -1,0 +1,45 @@
+package com.dhanashri;
+
+public class DemoInhr{
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Inheritance {
+	private String name;
+	private int age;
+	
+	public Inheritance(String name,int age ) {
+		this.name=name;
+		this.age=age;
+	}
+	
+	public void DisplayRecord(String name, int age) {
+		System.out.println("Name :  " + this.name );
+		System.out.println("Age :  " + this.age);
+	}
+	
+	
+
+}
+
+class Inheritance1 extends Inheritance{
+	private int id;
+	private int number;
+	
+	public Inheritance1(String name,int age ,int id,int number) {
+		super(name,age);
+		this.id=id;
+		this.number=number;
+	}
+	
+	public void DisplayRecord() {
+		DisplayRecord();
+		System.out.println("ID : " + this.id);
+		System.out.println("Number  : " +  this.number);
+	}
+	
+	
+	
+}

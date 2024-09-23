@@ -1,0 +1,13 @@
+package area;
+
+public class Circle {
+  
+	private radius;
+	
+	public double areaOfCircle() {
+		 
+		
+	 
+	
+ }
+}

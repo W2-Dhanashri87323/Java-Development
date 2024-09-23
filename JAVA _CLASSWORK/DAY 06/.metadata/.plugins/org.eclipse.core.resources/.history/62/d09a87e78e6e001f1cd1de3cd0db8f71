@@ -1,0 +1,28 @@
+package com.dhanashri;
+
+//equals method Practice -->
+
+public class Program {
+	public static void main(String args[]) {
+		
+		
+		Employee emp1= new Employee();
+		Employee emp2 = new Employee();
+		
+		if(emp1==emp2) {
+			System.out.println("Same");
+		}else {
+			System.out.println("not same");
+		}	
+		
+	}
+
+}
+
+class Employee{
+
+	void Name() {	
+	System.out.println("Employee class");
+}
+	
+}

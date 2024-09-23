@@ -1,0 +1,43 @@
+import area.Circle;
+import area.Square;
+import area.Rectangle;
+import volumn.Cone;
+
+import java.util.*;
+
+public class ProgramCode{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		
+//        System.out.print("Enter the radius :" );
+//        double input = sc.nextDouble();
+//        
+//        Circle c1 = new Circle();
+//         c1.areaOfCircle(input);
+//        
+//        System.out.print("Enter the side : " );
+//        double inputside = sc.nextDouble();
+//        
+//        Square s = new Square();
+//        s.CalculateSqArea(inputside);
+//        
+//        System.out.print("Enter the length : " );
+//        double length = sc.nextDouble();
+//        System.out.print("Enter the breadth : ");
+//        double breadth = sc.nextDouble();
+//       
+//         Rectangle r = new Rectangle();
+//         r.CalRectangle(length, breadth);
+        
+         Cone c2 = new Cone();
+         c2.calCone(20,30);
+        
+        
+		
+
+        
+        
+        
+		
+	}
+}

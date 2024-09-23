@@ -1,0 +1,26 @@
+package com.dhanashri;
+
+public interface Flyable {
+	public static final String eye ;
+	String legs ;
+	 
+    public abstract void fly();
+    void eat();	
+	
+}
+
+class Duck implements Flyable{
+
+	@Override
+	public void fly() {
+		System.out.println(" duck can fly");
+		
+	}
+
+	@Override
+	public void eat() {
+	 System.out.println(" duck can eat ");
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+package com.Rajvardhan;
+
+public class InvoiceTest {
+	private String partNum;
+	private String partDescrip;
+	private int Quantity;
+	private double price;
+
+	
+
+}

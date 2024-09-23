@@ -1,0 +1,24 @@
+package demo02;
+
+class Initializer{
+	//field initializer
+	public static int id=1;
+	public int age=23;
+	
+	//Constructor initializer
+	public Initializer() {
+		System.out.println("Construtor Called");
+		
+	}
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("\t\tFIELD INI");
+		System.out.println("Id ::"+Initializer.id);
+		System.out.println("Age ::"+Initializer.age);
+		}
+
+}

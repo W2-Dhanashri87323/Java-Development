@@ -1,0 +1,21 @@
+package com.dhanashri;
+
+public class GenericsOld {
+
+    private Object obj;
+
+    public Object getObj() {
+        return obj;
+    }
+
+    public void setObj(Object obj) {
+        this.obj = obj;
+    }
+
+    public static void main(String[] args) {
+        GenericsOld g = new GenericsOld();
+        g.setObj(34);
+        Integer r1 = g.getObj();
+    }
+
+}

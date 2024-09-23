@@ -1,0 +1,90 @@
+package com.dhanashri;
+
+import java.util.Objects;
+
+//equals method Practice -->
+
+public class Program {
+	public static void main(String[] args) {
+		
+		
+				
+	}
+	
+	public static void main2(String[] args) {
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+		
+		if(emp1.equals(emp2)) { // equals method of java.lang object class and also compares on references
+			System.out.println("Same");
+		}else {
+			System.out.println("not same"); // Ans is not same 
+		}	
+		
+	}
+	
+	public static void main1(String args[]) {	
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+		
+		if(emp1==emp2) { // compares on 2 different references
+			System.out.println("Same");
+		}else {
+			System.out.println("not same"); // Ans is not same 
+		}	
+		
+	}
+
+}
+
+class Employee{
+	private String name;
+	private int age;
+	private int id ;	
+	
+	
+	//self created overriden equals method from object class of {id}
+	
+	@Override 
+	public boolean equals(Object obj) {
+		if(obj == null) {
+			return false;
+		}
+		
+		if (this == obj) {
+			return true;
+		}
+		
+      // if(getClass() != obj.getClass()) 
+      //	return false; 
+      //  }
+		
+		if (!(obj instanceof Employee)) {
+			return false;                                                                                    //true
+		}
+		
+		Employee other = (Employee) obj; //downcasting  Eqauls(Sub)--> Oject(super)                          //false
+		return this.id == other.id;
+	}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

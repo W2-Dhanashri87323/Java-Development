@@ -1,0 +1,56 @@
+package com.Rajvardhan;
+
+public class InvoiceTest {
+	private String partNum;
+	private String partDescrip;
+	private int Quantity;
+	private double price;
+	
+	public InvoiceTest() {
+		
+	}
+	
+	public InvoiceTest(String partNum, String partDescrip, int quantity, double price) {
+		this.partNum = partNum;
+		this.partDescrip = partDescrip;
+		Quantity = quantity;
+		this.price = price;
+	}
+
+//Setters
+
+	public void setPartNum(String partNum) {
+		this.partNum = partNum;
+	}
+	
+	public void setPartDescrip(String partDescrip) {
+		this.partDescrip = partDescrip;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
+	
+	//Getters
+	public String getPartDescrip() {
+		return partDescrip;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public String getPartNum() {
+		return partNum;
+	}
+	
+	public int getQuantity() {
+		return Quantity;
+	}
+
+	
+
+}

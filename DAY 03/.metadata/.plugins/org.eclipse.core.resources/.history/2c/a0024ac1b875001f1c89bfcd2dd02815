@@ -1,0 +1,18 @@
+package com.Rajvardhan;
+
+public class InvoiceTest {
+	private String partNum;
+	private String partDescrip;
+	private int Quantity;
+	private double price;
+	public InvoiceTest(String partNum, String partDescrip, int quantity, double price) {
+		super();
+		this.partNum = partNum;
+		this.partDescrip = partDescrip;
+		Quantity = quantity;
+		this.price = price;
+	}
+
+	
+
+}

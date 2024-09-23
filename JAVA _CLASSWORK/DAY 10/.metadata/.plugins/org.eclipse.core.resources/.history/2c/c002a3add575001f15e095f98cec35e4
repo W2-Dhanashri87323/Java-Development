@@ -1,0 +1,14 @@
+package com.dhanashri;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Collections;
+
+public class SetPractice {
+
+	Set<Integer> s = new HashSet<>();
+	s.add(1);
+	sysout
+	
+	
+}

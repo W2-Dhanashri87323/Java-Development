@@ -1,0 +1,14 @@
+package demo02;
+
+class Initializer{
+	
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
